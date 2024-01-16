@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>midias em html5</title>
+    <h1>imagem dinamica</h1>
+    <p>tente abrir esse site em varios dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador </p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto_P.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto_M.png" type="image/png">
+     <img src="imagens/Foto_G.png" alt="imagem flexivel">
+    </picture>
+    <h1>reproduzindo audio</h1>
+    <p>vamos aprender a reproduzir audios em htlm5</p>
+    <audio src="media/gulty.mp3" controls autoplay></audio>
+   <audio preload="metadata" autoplay controls loopf > 
+    <source src="media/yousei.mp3" type="audio/mpeg">
+    <source src="media/yousei.ogg" type="audio/ogg">
+    <source src="media/yousei.wav" type="audio/wav">
+    <p>infelismente seu navegador não consegue reproduzir áudio</p>
+    <a href="media/yousei.mp3">clique aqui para baixar p seu arquivo mp3</a>
+   </audio>
+</head>
+<body>
+    
+</body>
+</html>
